@@ -28,6 +28,7 @@ server.listen(port, function () {
     console.log('Weather Report listening on ' + url);
 });
 
+
 app.get("/", function(req, res) {
     return res.render('main');
 });
